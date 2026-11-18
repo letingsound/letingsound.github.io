@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>北京乐听声动科技有限公司 | 首页</title>
+    <meta
+      name="description"
+      content="北京乐听声动科技有限公司——专注算法、UAV、工业检测、AI 声学的科技公司，为行业客户提供从算法到系统的整体解决方案。"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="preload" as="image" href="assets/images/drone-imager.jpg">
+  </head>
+  <body class="page">
+    <header class="navbar">
+      <div class="navbar-inner">
+        <a href="index.html" class="brand" aria-label="北京乐听声动科技有限公司">
+          <div class="brand-logo">
+            <!-- 将公司 logo 文件命名为 logo.jpg 并放在 assets 目录下即可替换此位置 -->
+            <img src="assets/logo.jpg" alt="北京乐听声动科技有限公司 Logo" />
+          </div>
+          <div>
+            <div class="brand-text-main">乐听声动</div>
+            <div class="brand-text-sub">北京乐听声动科技有限公司</div>
+          </div>
+        </a>
+        <nav class="nav-links" aria-label="主导航">
+          <a class="nav-link" href="index.html">
+            <span class="dot"></span>
+            <span class="label">首页</span>
+          </a>
+          <a class="nav-link" href="products.html">
+            <span class="dot"></span>
+            <span class="label">产品与技术</span>
+          </a>
+          <a class="nav-link" href="solutions.html">
+            <span class="dot"></span>
+            <span class="label">行业解决方案</span>
+          </a>
+          <a class="nav-link" href="about.html">
+            <span class="dot"></span>
+            <span class="label">关于我们</span>
+          </a>
+          <a class="nav-link" href="contact.html">
+            <span class="dot"></span>
+            <span class="label">联系我们</span>
+          </a>
+        </nav>
+        <a class="nav-cta" href="contact.html">
+          <span class="dot"></span>
+          <span>预约技术沟通</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="展开导航菜单">
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main class="page-inner">
+      <!-- 大图 hero 区域 -->
+      <section class="hero-banner" style="background-image: url('assets/images/drone-imager.jpg') !important; background-size: cover; background-position: center;">
+        <div class="hero-content">
+          <h1 class="hero-english-title pc-only">LETINGSOUND</h1>
+          <div class="hero-banner-actions">
+            <a href="products.html" class="btn-primary">
+              了解技术能力
+              <span>→</span>
+            </a>
+            <a href="solutions.html" class="btn-ghost">
+              查看行业方案
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 核心能力区域 -->
+      <section class="section">
+        <div class="section-header">
+          <h2 class="section-title">核心业务</h2>
+          <span class="section-badge">专注于工业检测和无人机声学探测领域的创新解决方案</span>
+        </div>
+        <div class="business-grid">
+          <article class="business-card">
+            <div class="business-card-content">
+              <h3 class="business-title">工业检测</h3>
+              <p class="business-desc">基于 AI 的工业设备声学检测与缺陷识别，实现设备状态实时监测与故障预测</p>
+              <div class="business-tags">
+                <span class="business-tag">设备监测</span>
+                <span class="business-tag">缺陷识别</span>
+                <span class="business-tag">故障预测</span>
+              </div>
+            </div>
+          </article>
+          <article class="business-card">
+            <div class="business-card-content">
+              <h3 class="business-title">无人机声学探测</h3>
+              <p class="business-desc">集成先进声学算法的无人机感知系统，用于环境监测、设备巡检等场景</p>
+              <div class="business-tags">
+                <span class="business-tag">环境监测</span>
+                <span class="business-tag">设备巡检</span>
+                <span class="business-tag">声学感知</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+
+    </main>
+
+    <footer class="footer">
+      <div>© <span id="year-span">2024</span> 北京乐听声动科技有限公司</div>
+      <div class="footer-links">
+        <a href="about.html">公司简介</a>
+        <a href="products.html">技术与产品</a>
+        <a href="solutions.html">行业解决方案</a>
+        <a href="contact.html">商务与合作</a>
+      </div>
+    </footer>
+
+    <script src="assets/main.js" defer></script>
+    <script>
+      document.getElementById("year-span").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
